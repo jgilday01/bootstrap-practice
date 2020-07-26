@@ -6,6 +6,7 @@
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
+    "preinstall": "npx npm-force-resolutions",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "John Gilday",
@@ -18,5 +19,8 @@
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
   }
 }
