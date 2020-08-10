@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "preinstall": "npx npm-force-resolutions",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "node-sass": "^4.14.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
